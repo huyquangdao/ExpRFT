@@ -1,0 +1,11 @@
+# training environment
+torch==2.8.0
+transformers==4.44.2
+peft==0.13.0
+datasets==2.21.0
+accelerate==0.34.2
+pyyaml>=6.0
+openai>=1.40
+
+# generation / evaluation environment (keep separate from the training one)
+# vllm==0.25.1  (pulls its own transformers)
